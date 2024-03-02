@@ -1,0 +1,65 @@
+
+
+
+
+.header {
+    background-color: #ffff8b;
+    color: black;
+    padding: 10px; /* Reducir el relleno para hacer el encabezado más delgado */
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 18px; /* Reducir el tamaño de la fuente para hacer el encabezado más delgado */
+    position: fixed; /* Cambiar la posición a fija */
+    top: 0;
+    left: 0;
+    z-index: 999; /* Asegura que el encabezado esté sobre otros elementos */
+}
+
+.carousel {
+    position: relative;
+    width: 90vw; /* Aumentar el ancho del carrusel */
+    height: 80vh; /* Altura del carrusel */
+    overflow: hidden;
+    margin: 20vh auto 0; /* Separación del encabezado y centrado horizontal */
+    z-index: 1; /* Asegura que el carrusel esté detrás del encabezado */
+}
+
+.slides {
+    display: flex;
+    width: calc(100% * 5);
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 20%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

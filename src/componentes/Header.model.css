@@ -1,0 +1,14 @@
+.header {
+    background-color: #ffff8b;
+    color: black;
+    padding: 10px; /* Reducir el relleno para hacer el encabezado más delgado */
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 18px; /* Reducir el tamaño de la fuente para hacer el encabezado más delgado */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  

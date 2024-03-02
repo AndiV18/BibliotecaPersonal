@@ -1,0 +1,38 @@
+/* Autores.css */
+.autores-title {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.autor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar verticalmente */
+  margin-bottom: 20px;
+}
+
+.autor-image {
+  width: 150px; /* Reducir el ancho de la imagen */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px; /* Agregar espacio entre la imagen y el texto */
+  object-fit: cover; /* Ajustar la imagen para cubrir el contenedor */
+}
+
+.autor-info {
+  text-align: center; /* Centrar el texto */
+}
+
+.autor-name {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.autor-description {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
